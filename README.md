@@ -1,6 +1,17 @@
-# vizinhando_app_backend
+# API NodeJS
 
-API para controle de ocorrências em uma comunidade
+Api de teste para integração com firebase e MYSQL
+
+Estrutura do projeto:  https://github.com/jwsus/vizinhando_app_backend
 
 
-A pasta dos códigos desenvolvidos estão dentro da pasta src
+
+#### Executando localmente Yarn
+
+Instalar yarn: ``yarn install``
+Criando configuração yarn: ``yarn init -y``
+
+executar localmente: ``yarn start``
+
+
+

@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="883e55d1-21c9-4e7c-be9c-10239605b9c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../vizinhando_app2/.firebase/hosting.ZGlzdFx5.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../vizinhando_app2/.firebase/hosting.ZGlzdFx5.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/CSVToJSONController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/PREVENTIVA.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodemon.json" beforeDir="false" afterPath="$PROJECT_DIR$/nodemon.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,9 +33,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/Kleber2018/api-node.git" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1jQXd1e6ee2GEbshANAvwFIHenZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -20,9 +58,24 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/controllers" />
     <property name="nodejs_package_manager_path" value="yarn" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Angular\api-node" />
+      <recent name="C:\Angular\api-node\src\controllers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Angular\api-node\src\controllers" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="NodeJSConfigurationType" path-to-js-file="$PROJECT_DIR$/src/server.js">
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -35,10 +88,95 @@
       <option name="presentableId" value="Default" />
       <updated>1603737372519</updated>
       <workItem from="1603737373937" duration="35000" />
+      <workItem from="1603737498813" duration="15675000" />
     </task>
+    <task id="LOCAL-00001" summary="criação">
+      <created>1603737588611</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603737588611</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="criação" />
+    <option name="LAST_COMMIT_MESSAGE" value="criação" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2174" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603741075980">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2174" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1603741075980" />
+    <state x="2012" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1603739271958">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2012" y="92" width="1416" height="676" key="DiffContextDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1603739271958" />
+    <state x="2500" y="185" key="FileChooserDialogImpl" timestamp="1603742444389">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2500" y="185" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1603742444389" />
+    <state width="1579" height="292" key="GridCell.Tab.0.bottom" timestamp="1603739637072">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1603739637072" />
+    <state width="1579" height="292" key="GridCell.Tab.0.center" timestamp="1603739637072">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="292" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1603739637072" />
+    <state width="1579" height="292" key="GridCell.Tab.0.left" timestamp="1603739637072">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="292" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1603739637072" />
+    <state width="1579" height="292" key="GridCell.Tab.0.right" timestamp="1603739637072">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="292" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1603739637072" />
+    <state x="2312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1603737868111">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2312" y="163" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1603737868111" />
   </component>
 </project>

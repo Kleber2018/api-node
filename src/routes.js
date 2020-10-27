@@ -4,13 +4,22 @@ import SessionController from './controllers/SessionController';
 import UserController from './controllers/UserController';
 import PasswordController from './controllers/PasswordController';
 import OcurrenceController from './controllers/OcurrenceController';
+import CSVToJSONController from "./controllers/CSVToJSONController";
 
 import authMiddleware from './middlewares/auth';
 
 const routes = new Router();
 
+routes.get('/export', CSVToJSONController.convertermuitosdados2);
+routes.get('/export2', CSVToJSONController.convertermuitosdados);
+routes.get('/export3', CSVToJSONController.converterpoucosdados);
+
+routes.get('/teste', (req, res) => {
+    res.send('deu certo sss')
+});
 
 routes.get('/forgotPassword', PasswordController.store);
+
 routes.post('/user', UserController.store);
 routes.post('/login', SessionController.store);
 
@@ -21,6 +30,8 @@ routes.use(authMiddleware);
 routes.put('/user', UserController.update);
 
 routes.get('/me', UserController.show);
+
+
 
 // routes.delete('/user/delete', UserController.delete);
 
