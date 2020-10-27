@@ -10,9 +10,8 @@ import authMiddleware from './middlewares/auth';
 
 const routes = new Router();
 
-routes.get('/export', CSVToJSONController.convertermuitosdados2);
-routes.get('/export2', CSVToJSONController.convertermuitosdados);
-routes.get('/export3', CSVToJSONController.converterpoucosdados);
+routes.get('/export', CSVToJSONController.explodeCSV);
+
 
 routes.get('/teste', (req, res) => {
     res.send('deu certo sss')
