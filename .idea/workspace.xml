@@ -17,9 +17,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="883e55d1-21c9-4e7c-be9c-10239605b9c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/controllers/serviceAccountKey.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controllers/CSVToJSONController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/CSVToJSONController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,12 +61,13 @@
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Angular\api-node" />
-      <recent name="C:\Angular\api-node\src\controllers" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Angular\api-node\src\controllers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Angular\api-node\src\controllers" />
+      <recent name="C:\Angular\api-node\src\config" />
+      <recent name="C:\Angular\api-node" />
     </key>
   </component>
   <component name="RunManager">
@@ -82,7 +86,8 @@
       <option name="presentableId" value="Default" />
       <updated>1603737372519</updated>
       <workItem from="1603737373937" duration="35000" />
-      <workItem from="1603737498813" duration="17799000" />
+      <workItem from="1603737498813" duration="18535000" />
+      <workItem from="1603843289661" duration="4832000" />
     </task>
     <task id="LOCAL-00001" summary="criação">
       <created>1603737588611</created>
@@ -98,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603763885655</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="csvtoparse, loop das linhas do csv">
+      <created>1603766091864</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603766091864</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,11 +153,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="criação" />
     <MESSAGE value="csvtojson teste" />
-    <option name="LAST_COMMIT_MESSAGE" value="csvtojson teste" />
+    <MESSAGE value="csvtoparse, loop das linhas do csv" />
+    <option name="LAST_COMMIT_MESSAGE" value="csvtoparse, loop das linhas do csv" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2174" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603741075980">
@@ -176,10 +190,10 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state width="1579" height="292" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1603739637072" />
-    <state x="470" y="197" key="Vcs.Push.Dialog.v2" timestamp="1603763887612">
+    <state x="470" y="197" key="Vcs.Push.Dialog.v2" timestamp="1603766094737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="470" y="197" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1603763887612" />
+    <state x="470" y="197" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1603766094737" />
     <state x="2312" y="163" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1603737868111" />
   </component>
 </project>

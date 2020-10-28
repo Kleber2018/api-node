@@ -1,14 +1,13 @@
-import Ocurrence from '../models/Ocurrence';
+var admin = require("firebase-admin");
 
-import User from '../models/User';
+var serviceAccount = require("./serviceAccountKey.json");
 
-// v1
-const csvtojsonV1=require("csvtojson/v1");
-// v2
-const csvtojsonV2=require("csvtojson");
-//const csvtojsonV2=require("csvtojson/v2");
+admin.initializeApp({
+    credential: admin.credential.cert(serviceAccount),
+    databaseURL: "https://vizinhandoapp.firebaseio.com"
+});
 
-const csv=require('csvtojson')
+const db = admin.firestore();
 
 class CSVToJSONController {
 
@@ -16,6 +15,7 @@ class CSVToJSONController {
     async explodeCSV(req, res) {
         const csv = require('csv-parser');
         const fs = require('fs');
+        const stripBomStream = require('strip-bom-stream');
         var formidable = require('formidable');
         const form = formidable({ multiples: true });
         var contador = 0;
@@ -25,10 +25,12 @@ class CSVToJSONController {
             console.log(file.path)
             const csvFilePath = file.path
             fs.createReadStream(csvFilePath)
-                .pipe(csv())
+                .pipe(stripBomStream())
+                .pipe(csv({ separator: ';' }))
                 .on('data', (row) => {
                     console.log(row)
                     contador = contador +1;
+                    db.collection('equipamento').add(row)
                 })
                 .on('end', () => {
                     console.log('CSV file successfully processed', contador)
@@ -40,6 +42,9 @@ class CSVToJSONController {
         });
     }
 
+    async testParallelIndividualWrites(datas) {
+        await Promise.all(datas.map((data) => db.collection('equipamento').add(data)));
+    }
 }
 
 

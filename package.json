@@ -17,14 +17,19 @@
     "csv-parser": "^2.3.3",
     "csvtojson": "^2.0.10",
     "express": "^4.17.1",
+    "firebase-admin": "^9.3.0",
     "formidable": "^1.2.2",
     "generate-password": "^1.5.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.10.0",
     "nodemailer": "^6.4.11",
     "nodemon": "^2.0.4",
+    "strip-bom-buf": "^2.0.0",
     "sucrase": "^3.15.0",
     "yarn": "^1.22.4",
     "yarn-install": "^1.0.0"
+  },
+  "devDependencies": {
+    "strip-bom-stream": "^4.0.0"
   }
 }
