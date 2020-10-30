@@ -4,14 +4,14 @@ import SessionController from './controllers/SessionController';
 import UserController from './controllers/UserController';
 import PasswordController from './controllers/PasswordController';
 import OcurrenceController from './controllers/OcurrenceController';
-import CSVToJSONController from "./controllers/CSVToJSONController";
+import CSVToParseController from "./controllers/CSVToParseController";
 
 import authMiddleware from './middlewares/auth';
 
 const routes = new Router();
 
-routes.get('/export', CSVToJSONController.explodeCSV);
-
+routes.get('/export', CSVToParseController.explodeCSV);
+routes.get('/export2', CSVToParseController.explodeExcel2);
 
 routes.get('/teste', (req, res) => {
     res.send('deu certo sss')
