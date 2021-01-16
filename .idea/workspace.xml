@@ -17,20 +17,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="883e55d1-21c9-4e7c-be9c-10239605b9c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../estufaApp/src/app/config/config-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../estufaApp/src/app/config/config.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../estufaApp/src/app/config/config.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../estufaApp/src/app/config/config/config.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../estufaApp/src/app/config/config/config.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../estufaApp/src/app/config/config/config.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../estufaApp/src/app/config/config/config.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estufaApp/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../estufaApp/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estufaApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../estufaApp/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estufaApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../estufaApp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estufaApp/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../estufaApp/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estufaApp/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../estufaApp/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estufaApp/src/app/folder/folder.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../estufaApp/src/app/folder/folder.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estufaApp/src/app/config/config.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../estufaApp/src/app/config/config.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estufaApp/src/app/config/config/config.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../estufaApp/src/app/config/config/config.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estufaApp/src/app/config/config/config.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../estufaApp/src/app/config/config/config.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +104,9 @@
       <workItem from="1608231678305" duration="597000" />
       <workItem from="1609861055538" duration="38630000" />
       <workItem from="1610136123128" duration="2989000" />
-      <workItem from="1610644831082" duration="8014000" />
+      <workItem from="1610644831082" duration="8643000" />
+      <workItem from="1610757279856" duration="2482000" />
+      <workItem from="1610808240345" duration="1428000" />
     </task>
     <task id="LOCAL-00001" summary="criação">
       <created>1603737588611</created>
@@ -179,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609961587603</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="adc módulo config">
+      <created>1610654206384</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1610654206384</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +233,8 @@
     <MESSAGE value="refatorado gráficos app" />
     <MESSAGE value="Alertas animation" />
     <MESSAGE value="refatorado buscador de ip" />
-    <option name="LAST_COMMIT_MESSAGE" value="refatorado buscador de ip" />
+    <MESSAGE value="adc módulo config" />
+    <option name="LAST_COMMIT_MESSAGE" value="adc módulo config" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2174" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603741075980">
@@ -271,19 +271,19 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state width="1579" height="292" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1603739637072" />
-    <state x="819" y="222" key="RollbackChangesDialog" timestamp="1610137345603">
+    <state x="819" y="222" key="RollbackChangesDialog" timestamp="1610654150260">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="819" y="222" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1538.900@0.0.1920.1040" timestamp="1610137345603" />
+    <state x="819" y="222" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1538.900@0.0.1920.1040" timestamp="1610654150260" />
     <state x="819" y="222" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1604024297624" />
     <state x="2569" y="369" key="VCS.ChangelistChooser" timestamp="1604017719858">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2569" y="369" key="VCS.ChangelistChooser/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1604017719858" />
-    <state x="470" y="197" key="Vcs.Push.Dialog.v2" timestamp="1609962228074">
+    <state x="470" y="197" key="Vcs.Push.Dialog.v2" timestamp="1610654214620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="470" y="197" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1538.900@0.0.1920.1040" timestamp="1609889747037" />
+    <state x="470" y="197" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1538.900@0.0.1920.1040" timestamp="1610654214620" />
     <state x="470" y="197" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1604024362903" />
     <state x="2312" y="163" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1603848326325" />
     <state x="470" y="197" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609962228074" />
