@@ -18,9 +18,9 @@
   <component name="ChangeListManager">
     <list default="true" id="883e55d1-21c9-4e7c-be9c-10239605b9c5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estufaApp/src/app/config/config.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../estufaApp/src/app/config/config.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estufaApp/src/app/config/config/config.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../estufaApp/src/app/config/config/config.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../estufaApp/src/app/config/config/config.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../estufaApp/src/app/config/config/config.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estufaApp/src/app/folder/folder/folder.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/../estufaApp/src/app/folder/folder/folder.page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estufaApp/src/app/folder/folder/folder.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../estufaApp/src/app/folder/folder/folder.page.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +34,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../estufaApp" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="hiddenUrls">
@@ -56,21 +57,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vizinhando_app2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../estufaApp/src/app" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="ts.external.directory.path" value="C:\Angular\estufaApp\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Angular\api-node\src\controllers" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Angular\estufaApp\src\app\config" />
       <recent name="C:\Angular\estufaApp\src\app\folder\folder" />
       <recent name="C:\Angular\api-node\src\controllers" />
       <recent name="C:\Angular\api-node\src\config" />
       <recent name="C:\Angular\api-node" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Angular\estufaApp\src\app" />
+      <recent name="C:\Angular\api-node\src\controllers" />
     </key>
   </component>
   <component name="RunManager">
@@ -106,7 +108,10 @@
       <workItem from="1610136123128" duration="2989000" />
       <workItem from="1610644831082" duration="8643000" />
       <workItem from="1610757279856" duration="2482000" />
-      <workItem from="1610808240345" duration="1428000" />
+      <workItem from="1610808240345" duration="5939000" />
+      <workItem from="1611354311543" duration="13849000" />
+      <workItem from="1611371264888" duration="332000" />
+      <workItem from="1611402232326" duration="5001000" />
     </task>
     <task id="LOCAL-00001" summary="criação">
       <created>1603737588611</created>
@@ -178,7 +183,35 @@
       <option name="project" value="LOCAL" />
       <updated>1610654206384</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="API config">
+      <created>1610810806017</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1610810806017</updated>
+    </task>
+    <task id="LOCAL-00012" summary="requisição ocultar medicao">
+      <created>1610816207720</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1610816207720</updated>
+    </task>
+    <task id="LOCAL-00013" summary="modúlo alert">
+      <created>1611358838388</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1611358838388</updated>
+    </task>
+    <task id="LOCAL-00014" summary="estruturado config">
+      <created>1611370664406</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1611370664406</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +267,11 @@
     <MESSAGE value="Alertas animation" />
     <MESSAGE value="refatorado buscador de ip" />
     <MESSAGE value="adc módulo config" />
-    <option name="LAST_COMMIT_MESSAGE" value="adc módulo config" />
+    <MESSAGE value="API config" />
+    <MESSAGE value="requisição ocultar medicao" />
+    <MESSAGE value="modúlo alert" />
+    <MESSAGE value="estruturado config" />
+    <option name="LAST_COMMIT_MESSAGE" value="estruturado config" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2174" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603741075980">
@@ -271,6 +308,14 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state width="1579" height="292" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1603739637072" />
+    <state x="184" y="86" key="MergeDialog" timestamp="1611358980268">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="86" key="MergeDialog/0.0.1920.1040/1920.0.1538.900@0.0.1920.1040" timestamp="1611358980268" />
+    <state x="598" y="281" key="MultipleFileMergeDialog" timestamp="1611358980277">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="598" y="281" key="MultipleFileMergeDialog/0.0.1920.1040/1920.0.1538.900@0.0.1920.1040" timestamp="1611358980277" />
     <state x="819" y="222" key="RollbackChangesDialog" timestamp="1610654150260">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -280,17 +325,17 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2569" y="369" key="VCS.ChangelistChooser/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1604017719858" />
-    <state x="470" y="197" key="Vcs.Push.Dialog.v2" timestamp="1610654214620">
+    <state x="470" y="197" key="Vcs.Push.Dialog.v2" timestamp="1611370667561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="470" y="197" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1538.900@0.0.1920.1040" timestamp="1610654214620" />
+    <state x="470" y="197" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1538.900@0.0.1920.1040" timestamp="1611359185615" />
     <state x="470" y="197" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1604024362903" />
     <state x="2312" y="163" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1603848326325" />
-    <state x="470" y="197" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609962228074" />
-    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610645249596">
+    <state x="470" y="197" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611370667561" />
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611359144871">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1538.900@0.0.1920.1040" timestamp="1610645249596" />
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1538.900@0.0.1920.1040" timestamp="1611359144871" />
     <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606957867843" />
     <state x="667" y="76" width="1020" height="888" key="find.popup" timestamp="1609863638467">
       <screen x="0" y="0" width="1920" height="1040" />
