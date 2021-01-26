@@ -4,13 +4,21 @@ import SessionController from './controllers/SessionController';
 import UserController from './controllers/UserController';
 import PasswordController from './controllers/PasswordController';
 import OcurrenceController from './controllers/OcurrenceController';
+import CSVToParseController from "./controllers/CSVToParseController";
 
 import authMiddleware from './middlewares/auth';
 
 const routes = new Router();
 
+routes.get('/export', CSVToParseController.explodeCSV);
+routes.get('/export2', CSVToParseController.explodeExcel2);
+
+routes.get('/teste', (req, res) => {
+    res.send('deu certo sss')
+});
 
 routes.get('/forgotPassword', PasswordController.store);
+
 routes.post('/user', UserController.store);
 routes.post('/login', SessionController.store);
 
@@ -21,6 +29,8 @@ routes.use(authMiddleware);
 routes.put('/user', UserController.update);
 
 routes.get('/me', UserController.show);
+
+
 
 // routes.delete('/user/delete', UserController.delete);
 

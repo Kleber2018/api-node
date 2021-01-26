@@ -14,6 +14,8 @@ class App{
       useNewUrlParser: true,
       useUnifiedTopology: true
     });
+
+
     this.setcors();
     this.middlewares();
     this.routes();

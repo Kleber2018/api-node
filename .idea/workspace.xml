@@ -1,8 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="883e55d1-21c9-4e7c-be9c-10239605b9c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../vizinhando_app2/.firebase/hosting.ZGlzdFx5.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../vizinhando_app2/.firebase/hosting.ZGlzdFx5.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/android/icon/drawable-hdpi-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/android/icon/drawable-ldpi-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/android/icon/drawable-mdpi-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/android/icon/drawable-xhdpi-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/android/icon/drawable-xxhdpi-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/android/icon/drawable-xxxhdpi-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/android/splash/drawable-land-hdpi-screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/android/splash/drawable-land-ldpi-screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/android/splash/drawable-land-mdpi-screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/android/splash/drawable-land-xhdpi-screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/android/splash/drawable-land-xxhdpi-screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/android/splash/drawable-land-xxxhdpi-screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/android/splash/drawable-port-hdpi-screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/android/splash/drawable-port-ldpi-screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/android/splash/drawable-port-mdpi-screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/android/splash/drawable-port-xhdpi-screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/android/splash/drawable-port-xxhdpi-screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/android/splash/drawable-port-xxxhdpi-screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/android/xml/network_security_config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/icon/icon-1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/icon/icon-20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/icon/icon-20@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/icon/icon-20@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/icon/icon-24@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/icon/icon-27.5@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/icon/icon-29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/icon/icon-29@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/icon/icon-29@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/icon/icon-40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/icon/icon-40@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/icon/icon-40@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/icon/icon-44@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/icon/icon-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/icon/icon-50@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/icon/icon-60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/icon/icon-60@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/icon/icon-60@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/icon/icon-72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/icon/icon-72@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/icon/icon-76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/icon/icon-76@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/icon/icon-83.5@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/icon/icon-86@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/icon/icon-98@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/icon/icon-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/icon/icon-small@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/icon/icon-small@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/icon/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/icon/icon@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/splash/Default-2436h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/splash/Default-568h@2x~iphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/splash/Default-667h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/splash/Default-736h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/splash/Default-Landscape-2436h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/splash/Default-Landscape-736h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/splash/Default-Landscape@2x~ipad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/splash/Default-Landscape@~ipadpro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/splash/Default-Landscape~ipad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/splash/Default-Portrait@2x~ipad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/splash/Default-Portrait@~ipadpro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/splash/Default-Portrait~ipad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/splash/Default@2x~iphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/splash/Default@2x~universal~anyany.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/ios/splash/Default~iphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estufaApp/resources/splash.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estufaApp/ionic.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../estufaApp/ionic.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estufaApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../estufaApp/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estufaApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../estufaApp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estufaApp/src/app/folder/folder.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../estufaApp/src/app/folder/folder.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estufaApp/src/app/folder/folder/folder.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/../estufaApp/src/app/folder/folder/folder.page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estufaApp/src/app/folder/folder/folder.page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../estufaApp/src/app/folder/folder/folder.page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estufaApp/src/app/folder/folder/folder.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../estufaApp/src/app/folder/folder/folder.page.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,19 +100,54 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../estufaApp" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/Kleber2018/api-node.git" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1jQXd1e6ee2GEbshANAvwFIHenZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vizinhando_app2" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="ts.external.directory.path" value="C:\Angular\estufaApp\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Angular\estufaApp\src\app\folder\folder" />
+      <recent name="C:\Angular\api-node\src\controllers" />
+      <recent name="C:\Angular\api-node\src\config" />
+      <recent name="C:\Angular\api-node" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Angular\api-node\src\controllers" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="NodeJSConfigurationType" path-to-js-file="$PROJECT_DIR$/src/server.js">
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -35,10 +160,193 @@
       <option name="presentableId" value="Default" />
       <updated>1603737372519</updated>
       <workItem from="1603737373937" duration="35000" />
+      <workItem from="1603737498813" duration="18535000" />
+      <workItem from="1603843289661" duration="4992000" />
+      <workItem from="1604017157594" duration="6889000" />
+      <workItem from="1604605291497" duration="1000" />
+      <workItem from="1605200256132" duration="4000" />
+      <workItem from="1605667349962" duration="1908000" />
+      <workItem from="1605826958374" duration="12921000" />
+      <workItem from="1605908902049" duration="1163000" />
+      <workItem from="1606883699559" duration="120000" />
+      <workItem from="1606950752822" duration="5779000" />
+      <workItem from="1607084032543" duration="7000" />
+      <workItem from="1607263638677" duration="601000" />
+      <workItem from="1608231678305" duration="597000" />
+      <workItem from="1609861055538" duration="36706000" />
     </task>
+    <task id="LOCAL-00001" summary="criação">
+      <created>1603737588611</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603737588611</updated>
+    </task>
+    <task id="LOCAL-00002" summary="csvtojson teste">
+      <created>1603763885655</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603763885655</updated>
+    </task>
+    <task id="LOCAL-00003" summary="csvtoparse, loop das linhas do csv">
+      <created>1603766091864</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603766091864</updated>
+    </task>
+    <task id="LOCAL-00004" summary="adicionado sdk firebase">
+      <created>1603848323351</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603848323351</updated>
+    </task>
+    <task id="LOCAL-00005" summary="TESTES COM XLSX">
+      <created>1604024361275</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604024361275</updated>
+    </task>
+    <task id="LOCAL-00006" summary="refatorado gráficos app">
+      <created>1609879565270</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609879565270</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Alertas animation">
+      <created>1609889620516</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609889620516</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Alertas animation">
+      <created>1609889739234</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1609889739234</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="criação" />
+    <MESSAGE value="csvtojson teste" />
+    <MESSAGE value="csvtoparse, loop das linhas do csv" />
+    <MESSAGE value="adicionado sdk firebase" />
+    <MESSAGE value="TESTES COM XLSX" />
+    <MESSAGE value="refatorado gráficos app" />
+    <MESSAGE value="Alertas animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alertas animation" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2174" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603741075980">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2174" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1603741075980" />
+    <state x="707" y="365" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1609863463826">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="707" y="365" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.0.1538.900@0.0.1920.1040" timestamp="1609863463826" />
+    <state x="2012" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1603739271958">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2012" y="92" width="1416" height="676" key="DiffContextDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1603739271958" />
+    <state x="696" y="224" key="FileChooserDialogImpl" timestamp="1609862325583">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="696" y="224" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1538.900@0.0.1920.1040" timestamp="1609862325583" />
+    <state x="2500" y="185" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1603742444389" />
+    <state x="696" y="224" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605909244981" />
+    <state width="1579" height="292" key="GridCell.Tab.0.bottom" timestamp="1603739637072">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1603739637072" />
+    <state width="1579" height="292" key="GridCell.Tab.0.center" timestamp="1603739637072">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="292" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1603739637072" />
+    <state width="1579" height="292" key="GridCell.Tab.0.left" timestamp="1603739637072">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="292" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1603739637072" />
+    <state width="1579" height="292" key="GridCell.Tab.0.right" timestamp="1603739637072">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="292" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1603739637072" />
+    <state x="819" y="222" key="RollbackChangesDialog" timestamp="1604024297624">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="819" y="222" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1604024297624" />
+    <state x="2569" y="369" key="VCS.ChangelistChooser" timestamp="1604017719858">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2569" y="369" key="VCS.ChangelistChooser/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1604017719858" />
+    <state x="470" y="197" key="Vcs.Push.Dialog.v2" timestamp="1609889747037">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="470" y="197" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1538.900@0.0.1920.1040" timestamp="1609889747037" />
+    <state x="470" y="197" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1604024362903" />
+    <state x="2312" y="163" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1603848326325" />
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606957867843">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606957867843" />
+    <state x="667" y="76" width="1020" height="888" key="find.popup" timestamp="1609863638467">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="76" width="1020" height="888" key="find.popup/0.0.1920.1040/1920.0.1538.900@0.0.1920.1040" timestamp="1609863638467" />
+    <state x="2385" y="181" key="search.everywhere.popup" timestamp="1604019783700">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2385" y="181" key="search.everywhere.popup/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1604019783700" />
   </component>
 </project>
