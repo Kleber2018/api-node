@@ -12,6 +12,9 @@ const db = admin.firestore();
 class CSVToParseController {
 
      //funcionando com parse, para muitos dados, recebe o file através do body da requisição, para Arquivos CSV grande
+    //Necessário que dados não possua ; e "
+    // Converter xls com Libre Office para CSV separado por ; e sem " para separar os textos
+    // testado com uma planilha de 4 mil linhas
     async explodeCSV(req, res) {
         const csv = require('csv-parser');
         const fs = require('fs');
@@ -30,7 +33,13 @@ class CSVToParseController {
                 .on('data', (row) => {
                     console.log(row)
                     contador = contador +1;
-                    db.collection('equipamento').add(row)
+                   //db.collection('material').add(row)
+                    const batch = db.batch();
+                    console.log(row)
+                    console.log(row.classe+'-'+row.cod)
+                    const materialRefer =  db.collection('material').doc(row.classe+'-'+row.cod);
+                    batch.set(materialRefer, row)
+                    await batch.commit().then(r => {});
                 })
                 .on('end', () => {
                     console.log('CSV file successfully processed', contador)
