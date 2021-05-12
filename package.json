@@ -22,7 +22,7 @@
     "generate-password": "^1.5.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.10.0",
-    "nodemailer": "^6.4.11",
+    "nodemailer": "^6.4.16",
     "nodemon": "^2.0.4",
     "strip-bom-buf": "^2.0.0",
     "sucrase": "^3.15.0",
